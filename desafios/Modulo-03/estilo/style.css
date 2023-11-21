@@ -35,7 +35,6 @@ header > h1 {
 
 header > p {
     padding-bottom: 50px;
-
 }
 
 header a, footer a {
@@ -83,8 +82,7 @@ section > p {
 
 #img01 {
     background-image: url(../imagens/background001.jpg);
-    background-position: right center;
-    
+    background-position: right center;   
 }
 
 #img02 {
