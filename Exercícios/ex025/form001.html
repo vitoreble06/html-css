@@ -13,7 +13,12 @@
 <body>
     <h1>Meu primeiro Formulario</h1>
 
-    <form autocomplete="off" action="cadastro.php"> 
+    <form autocomplete="off" action="cadastro.php" method="post"> <!-- GET é o metodo que coloca na URL, POST é o que nao faz aparecer os dados na URL-->
+    <!-- GET se usa para dados nao sensiveis, como peso e altura ou link compartilhado;
+        nao da de usar o get de os dados ultrapassarem 3 mil bytes.
+        POST se usa em dados como número de cartão de credito, SENHA, etc.
+    -->
+
         <p>
             <label for="inome">Nome:</label> <!-- LABEL é importante, faz a relação entre o input e o nome do input-->
             <input type="text" name="Nome" id="inome"></p>
